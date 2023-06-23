@@ -15,7 +15,7 @@ public class ConexãoDB {
     
     static String urlBD = "jdbc:mysql://localhost:3306/petshop";
     static String username = "root";
-    static String password = "123456";
+    static String password = "1234"; // "123456"
     
     public static Connection getConnection() throws SQLException{
         
