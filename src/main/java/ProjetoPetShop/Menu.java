@@ -177,7 +177,7 @@ public class Menu extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 138, -1, -1));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProjetoPetShop/imagens/cachorro-fofo-com-uma-fantasia.jpg"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ProjetoPetShop\\imagens\\cachorro-fofo-com-uma-fantasia.jpg"));
         jLabel5.setText("jLabel5");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, -120, 960, 800));
 

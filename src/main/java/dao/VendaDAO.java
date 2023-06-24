@@ -5,7 +5,7 @@
 package dao;
 
 
-import bd.ConexãoDB;
+import bd.ConexaoDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -27,7 +27,7 @@ public class VendaDAO{
     
     public VendaDAO() throws SQLException{
         
-        connection = ConexãoDB.getConnection();
+        connection = ConexaoDB.getConnection();
         
     }
     

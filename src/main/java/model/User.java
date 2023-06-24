@@ -19,6 +19,9 @@ public class User {
         this.senha_usu = senha_usu;
         this.email_cli = email_cli;
     }
+    
+    public User() {
+    }
 
     public String getCpf_usu() {
         return cpf_usu;

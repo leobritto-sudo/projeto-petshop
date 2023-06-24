@@ -168,7 +168,7 @@ public class AtualizarCad extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, -1, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProjetoPetShop/imagens/lindo-retrato-de-animal-de-estimacao-de-um-pequeno-cao-e-gato.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ProjetoPetShop\\imagens\\lindo-retrato-de-animal-de-estimacao-de-um-pequeno-cao-e-gato.jpg"));
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-150, 0, 1050, 670));
 

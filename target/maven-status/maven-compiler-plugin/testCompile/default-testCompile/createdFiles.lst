@@ -1,0 +1,9 @@
+model\VendaTest.class
+dao\VendaDAOTest.class
+dao\ClientDAOTest.class
+model\ClientTest.class
+model\UserTest.class
+dao\UserDAOTest.class
+bd\ConexaoDBTest.class
+dao\ProdDAOTest.class
+model\ProdTest.class

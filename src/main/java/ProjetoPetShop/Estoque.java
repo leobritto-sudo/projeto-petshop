@@ -198,7 +198,7 @@ public class Estoque extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 100, -1, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProjetoPetShop/imagens/cao-bonito-do-grupo-de-cachorro-beagle-sentado-e-ofegante.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ProjetoPetShop\\imagens\\cachorro-fofo-com-uma-fantasia.jpg"));
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-410, -60, 1220, 650));
 

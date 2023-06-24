@@ -192,7 +192,7 @@ public class Cadastro extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, 330, 322));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProjetoPetShop/imagens/cao-bonito-vista-frontal-com-espaco-de-copia.jpg"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ProjetoPetShop\\imagens\\cao-bonito-vista-frontal-com-espaco-de-copia.jpg"));
         jLabel12.setText("jLabel12");
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(-240, -50, 1040, 640));
 

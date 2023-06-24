@@ -1,10 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package dao;
 
-import bd.ConexãoDB;
+import bd.ConexaoDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -15,10 +12,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import model.User;
 
-/**
- *
- * @author mathe
- */
 public class UserDAO {
     
     Connection connection;
@@ -26,7 +19,7 @@ public class UserDAO {
     
     public UserDAO() throws SQLException{
         
-        connection = ConexãoDB.getConnection();
+        connection = ConexaoDB.getConnection();
         
     }
     

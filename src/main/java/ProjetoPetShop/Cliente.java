@@ -241,7 +241,7 @@ public class Cliente extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(543, 96, -1, -1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProjetoPetShop/imagens/grupo-de-animais-fofos-em-fundo-branco.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ProjetoPetShop\\imagens\\grupo-de-animais-fofos-em-fundo-branco.jpg"));
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-150, -30, 1000, 640));
 

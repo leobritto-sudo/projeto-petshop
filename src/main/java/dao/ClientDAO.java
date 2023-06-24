@@ -4,7 +4,7 @@
  */
 package dao;
 
-import bd.ConexãoDB;
+import bd.ConexaoDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -23,7 +23,7 @@ public class ClientDAO {
     
     public ClientDAO() throws SQLException{
         
-        connection = ConexãoDB.getConnection();
+        connection = ConexaoDB.getConnection();
     }
     
      public boolean inserirCLI(Client cliente) throws SQLException{
@@ -45,13 +45,11 @@ public class ClientDAO {
      
     public boolean deletarCLI(Client cliente) throws SQLException{
         
-       String sql = "DELETE FROM usuario WHERE cpf_cli = ? ";
+       String sql = "DELETE FROM cliente WHERE cpf_cli = ? ";
         
        PreparedStatement statement = connection.prepareStatement(sql);
        
        statement.setString(1, cliente.getCpf_cli());
-        
-       statement.executeUpdate(sql);
         
        int rowsInserted = statement.executeUpdate();
         
@@ -61,14 +59,14 @@ public class ClientDAO {
     
     public boolean atualizarCLI(Client cliente) throws SQLException{
         
-       String sql = "UPDATE usuario SET Nome_usu = ?, Email_usu = ?, Tel_usu = ? WHERE cpf_usu = ?";
+       String sql = "UPDATE cliente SET Nome_cli = ?, Email_cli = ?, Tel_cli = ? WHERE cpf_cli = ?";
         
        PreparedStatement statement = connection.prepareStatement(sql);
         
        statement.setString(1, cliente.getNome_cli());      
-       statement.setString(3, cliente.getEmail_cli());
-       statement.setString(4, cliente.getTel_cli());
-       statement.setString(5, cliente.getCpf_cli());
+       statement.setString(2, cliente.getEmail_cli());
+       statement.setString(3, cliente.getTel_cli());
+       statement.setString(4, cliente.getCpf_cli());
         
        int rowsInserted = statement.executeUpdate();
         

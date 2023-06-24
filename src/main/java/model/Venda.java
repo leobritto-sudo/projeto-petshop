@@ -24,6 +24,9 @@ public class Venda {
         this.valor_tot = valor_tot;
         this.data_venda = data_venda;
     }
+    
+    public Venda() {}
+    
     public String getId_venda() {
         return id_venda;
     }

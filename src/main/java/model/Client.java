@@ -22,6 +22,10 @@ public class Client {
         
     }
     
+    public Client() {
+        
+    }
+    
     public String getTel_cli() {
         return tel_cli;
     }

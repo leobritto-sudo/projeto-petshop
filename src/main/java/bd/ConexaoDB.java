@@ -11,19 +11,25 @@ import java.sql.SQLException;
  *
  * @author mathe
  */
-public class ConexãoDB {
+public class ConexaoDB {
     
     static String urlBD = "jdbc:mysql://localhost:3306/petshop";
     static String username = "root";
-    static String password = "1234"; // "123456"
+    static String password = "123456"; // "123456"
     
-    public static Connection getConnection() throws SQLException{
+    public static Connection getConnection() {
         
-        Connection connection = null;
-        
-        connection = DriverManager.getConnection(urlBD, username, password);
-        
-        return connection;
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection connection = null;
+
+            connection = DriverManager.getConnection(urlBD, username, password);
+
+            return connection;
+        } catch(Exception e) {
+            e.printStackTrace();
+            return null;
+        }
         
     }
     

@@ -8,7 +8,7 @@ package dao;
  *
  * @author mathe
  */
-import bd.ConexãoDB;
+import bd.ConexaoDB;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -31,7 +31,7 @@ public class ProdDAO {
     
     public ProdDAO() throws SQLException{
         
-        connection = ConexãoDB.getConnection();
+        connection = ConexaoDB.getConnection();
         
     }
     
