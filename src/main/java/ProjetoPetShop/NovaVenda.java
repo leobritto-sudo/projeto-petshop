@@ -250,7 +250,7 @@ public class NovaVenda extends javax.swing.JFrame {
         jSeparator2.setForeground(new java.awt.Color(102, 102, 102));
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 62, 782, 10));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ProjetoPetShop/imagens/retrato-de-cachorro-adoravel-bulldog-branco.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(System.getProperty("user.dir") + "\\src\\main\\java\\ProjetoPetShop\\imagens\\retrato-de-cachorro-adoravel-bulldog-branco.jpg"));
         jLabel7.setText("jLabel7");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(-90, -310, 980, 990));
 

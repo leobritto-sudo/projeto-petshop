@@ -20,7 +20,7 @@ public class ConexaoDB {
     public static Connection getConnection() {
         
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection connection = null;
 
             connection = DriverManager.getConnection(urlBD, username, password);
